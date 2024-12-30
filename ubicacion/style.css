@@ -1,0 +1,98 @@
+.container{
+    border: 5px solid rgb(111, 238, 255);
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    place-content: center;
+    grid-template-areas: 
+    "header header header"
+    "side main main"
+    "side main main"
+    ;
+    gap: 5px;
+}
+
+.container1{
+    border: 5px solid rgb(111, 238, 255);
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px 75px;
+    place-content: center;
+    grid-template-areas: 
+    "logo headerr headerr"
+    "aside mainn mainn"
+    "aside mainn mainn"
+    "footer footer footer"
+    ;
+    gap: 5px;
+}
+
+.item{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.item__1{
+    border: 5px solid black;
+    background-color: seagreen;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-area: header;
+}
+
+.item__2{
+    border: 5px solid black;
+    background-color: springgreen;
+    /* grid-row: 2 / 4; */
+    grid-area: side;
+}
+
+.item__3{
+    border: 5px solid black;
+    background-color: rgb(107, 173, 140);
+    /* grid-area: 2 / 2 / 4 / 4; */
+    grid-area: main;
+}
+
+
+.item__4{
+    border: 5px solid black;
+    background-color: rgb(136, 255, 88);
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-area: logo;
+}
+
+.item__5{
+    border: 5px solid black;
+    background-color: seagreen;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-area: headerr;
+}
+
+.item__6{
+    border: 5px solid black;
+    background-color: rgb(0, 153, 66);
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-area: mainn;
+}
+
+.item__7{
+    border: 5px solid black;
+    background-color: rgb(3, 48, 22);
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-area: aside;
+}
+
+.item__8{
+    border: 5px solid black;
+    background-color: rgb(255, 247, 139);
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-area: footer;
+}

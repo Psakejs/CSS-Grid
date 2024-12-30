@@ -1,0 +1,12 @@
+.contenedor{
+    border: 5px solid rosybrown;
+    background-color: rgb(226, 217, 219);
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 200px  minmax(60px,250px);
+    grid-template-rows: repeat(3,auto);
+}
+
+.item{
+    border: 5px solid skyblue;
+    font-size: 2rem;
+}

@@ -1,0 +1,27 @@
+.container{
+    border: 5px solid rgb(240, 210, 177);
+    background-color: wheat;
+    display: grid;
+    grid-template-rows: 100px 200px;
+    /* grid-template-rows: 150px 250px; */
+    grid-auto-columns: 150px;
+    grid-auto-flow: column;
+    row-gap: 20px;
+    column-gap: 15px;
+   
+}
+
+.container1{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.item{
+    border: 5px solid rgb(253, 245, 241);
+    background-color: greenyellow;
+    font-size: 4rem;
+    text-align: center;
+}

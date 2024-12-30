@@ -1,0 +1,21 @@
+.contenedor{
+    border: 5px solid seagreen;
+    background-color: rgb(180, 245, 213);
+    display: grid;
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: 1fr 2fr min-content max-content; */
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+
+.contenedor-2{
+    border: 5px solid seagreen;
+    background-color: rgb(180, 245, 213);
+    display: grid;
+    margin-top: 100px;
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+}
+.item{
+    border: 5px solid skyblue;
+    font-size: 2rem;
+}
